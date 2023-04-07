@@ -114,6 +114,7 @@ function CertificateCard({ certificate }) {
 
   return (
     <div
+      id="Certificates"
       className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-[100px] p-3 relative "
       onMouseEnter={handleHover}
       onMouseLeave={handleLeave}
