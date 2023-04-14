@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import profilePic from "../assets/photo_2023-04-08_11-59-00.jpg";
 
 const Home = () => {
   return (
@@ -52,7 +53,7 @@ const Home = () => {
       <div className="md:w-1/8">
         <img
           className="p-10 w-full object-cover object-center rounded-3xl shadow-md"
-          src="https://howtodrawforkids.com/wp-content/uploads/2020/08/how-to-draw-a-Person.jpg"
+          src={profilePic}
           alt="My Image"
           width="500"
           height="500"
